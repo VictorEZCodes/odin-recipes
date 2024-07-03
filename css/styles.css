@@ -2,13 +2,18 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 img {
   height: auto;
   width: 250px;
 }
 
-h1 {
-  text-align: center;
+.img-container {
+  display: flex;
+  justify-content: center;
 }
 
 .desc p {
